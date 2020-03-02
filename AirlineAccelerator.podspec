@@ -12,5 +12,5 @@ Pod::Spec.new do |spec|
   spec.dependency                   'LivingMapSDK'
   spec.dependency                   'LivingMapLiveSDK'
   spec.dependency                   'SwiftProtobuf'
-  spec.dependency                   'Alamofire', '~> 5.0.0-rc.3'
+  spec.dependency                   'Alamofire'
 end
