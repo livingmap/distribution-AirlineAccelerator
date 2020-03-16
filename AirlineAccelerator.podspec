@@ -1,11 +1,11 @@
 Pod::Spec.new do |spec|
   spec.ios.deployment_target      = '10.0'
   spec.name                       = 'AirlineAccelerator'
-  spec.version                    = '0.5.6'
+  spec.version                    = '0.5.7'
   spec.license                    = { :type => 'Copyright', :text => 'Living Map' }
   spec.homepage                   = 'http://www.livingmap.com'
   spec.authors                    = { 'Living Map' => 'tech@livingmap.com' }
-  spec.summary                    = 'LivingMap AirlineAccelerator 0.5.6 for iOS10.0 and above'
+  spec.summary                    = 'LivingMap AirlineAccelerator 0.5.7 for iOS10.0 and above'
   spec.source                     = { :git => 'git@github.com:livingmap/distribution-AirlineAccelerator.git', :tag => spec.version }
   spec.frameworks                 = 'WebKit', 'Foundation'
   spec.vendored_frameworks        = 'AirlineAccelerator.framework'
