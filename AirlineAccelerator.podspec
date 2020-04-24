@@ -10,8 +10,6 @@ Pod::Spec.new do |spec|
   spec.swift_version              = '5.0'
   spec.frameworks                 = 'WebKit', 'Foundation'
   spec.vendored_frameworks        = 'AirlineAccelerator.framework'
-  spec.dependency                   'LivingMapSDK'
-  spec.dependency                   'LivingMapLiveSDK'
   spec.dependency                   'SwiftProtobuf'
-  spec.dependency                   'Alamofire'
+  spec.dependency                   'Alamofire', '~> 5.0.0-rc.3'
 end
